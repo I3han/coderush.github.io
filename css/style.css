@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 600px;
+    height: 800px;
   }
 }
 .fh5co-cover .display-t,
@@ -330,15 +330,15 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height: 600px;
+    height: 800px;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
-  height: 600px;
+  height: 800px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
-    height: 400px;
+    height: 600px;
   }
 }
 .fh5co-cover.fh5co-cover-sm .display-t,
@@ -350,7 +350,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm .display-t,
   .fh5co-cover.fh5co-cover-sm .display-tc {
-    height: 400px;
+    height: 600px;
   }
 }
 
@@ -844,6 +844,7 @@ form label {
   font-weight: normal !important;
 }
 
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
@@ -1078,7 +1079,7 @@ html{
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: rgb(44, 3, 110);
+  color: rgb(141, 78, 241);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
