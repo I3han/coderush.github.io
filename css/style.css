@@ -106,6 +106,10 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 20px 0;
   }
 }
+/* #page a .js-fh5co-nav-toggle i{
+  position: fixed;
+  z-index: -1;
+} */
 .fh5co-nav #fh5co-logo {
   font-size: 40px;
   margin: 0;
@@ -756,7 +760,7 @@ box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-gallery-list li.one-third {
-    width: 350px;
+    width: 300px;
   }
 }
 
@@ -1032,6 +1036,11 @@ form label {
   clear: both;
 }
 
+@media screen and (max-width: 480px) {
+  #fh5co-started{
+    height:400px
+  }
+}
 
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
