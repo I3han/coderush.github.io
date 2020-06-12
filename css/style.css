@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
   z-index: 1001;
   /* background-color: rgba(71, 71, 71, 0.5); */
 }
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family:  Arial, serif;
 }
 .fh5co-nav a {
-  padding: 5px 10px;
+  padding: 5px 5px;
   color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 768px) {
@@ -1216,7 +1216,7 @@ html{
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
