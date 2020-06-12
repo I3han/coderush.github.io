@@ -61,7 +61,7 @@
 
 		<!-- end -->
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation" >
+	<!-- <nav class="fh5co-nav" role="navigation" >
 		<div class="container" >
 			<div class="row" >
 				<div class="col-xs-2">
@@ -71,11 +71,11 @@
 					<ul>
 						<li class="active"><a href="#fh5co-header" class="smooth-goto">Home</a></li>
 						<li><a href="#fh5co-couple">Timeline</a></li>
-						<li class="has-dropdown">
+						<li>
 							<a href="#fh5co-testimonial">Rules</a>
 							
 						</li>
-						<li class="has-dropdown">
+						<li>
 							<a href="#">Prizes</a>
 							
 						</li>
@@ -85,7 +85,36 @@
 			</div>
 			
 		</div>
-	</nav>
+	</nav> -->
+
+
+	<header id="header" class="header header-hide">
+		<div class="container">
+	
+		  <div id="logo" class="pull-left">
+			<!-- <h1><a href="#body" class="scrollto"><span>e</span>Startup</a></h1> -->
+			<!-- Uncomment below if you prefer to use an image logo -->
+			<a href="#fh5co-header"><img src="images/logo.png" alt="logo"></a>
+		  </div>
+	
+		  <nav id="nav-menu-container">
+			<ul  class="nav-menu">
+				<li class="menu-active"><a href="#fh5co-header" class="smooth-goto">Home</a></li>
+				<li><a href="#fh5co-couple">Timeline</a></li>
+				<li>
+					<a href="#fh5co-testimonial">Rules</a>
+					
+				</li>
+				<li>
+					<a href="#">Prizes</a>
+					
+				</li>
+				<li><a href="#fh5co-gallery" class="smooth-goto">Contact</a></li>
+			</ul>
+		  </nav><!-- #nav-menu-container -->
+		</div>
+	  </header><!-- #header -->
+	
 
 	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.png);" data-stellar-background-ratio="0.4">
 		<div class="overlay"></div>
@@ -447,7 +476,17 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<!-- <script src="lib/jquery/jquery.min.js"></script>
+	<script src="lib/jquery/jquery-migrate.min.js"></script>
+	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+	<script src="lib/easing/easing.min.js"></script>
+	<script src="lib/modal-video/js/modal-video.js"></script>
+	<script src="lib/owlcarousel/owl.carousel.min.js"></script> -->
+	<script src="lib/superfish/hoverIntent.js"></script>
+	<script src="lib/superfish/superfish.min.js"></script>
+	<script src="lib/wow/wow.min.js"></script>
+	<script src="js/menu.js"></script>
 	<script>
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
@@ -468,9 +507,9 @@
 	
 	$(window).scroll(function () {
 		if ($(window).scrollTop() >= 700) {
-		$('.fh5co-nav').addClass("navbackgroud");
+		$('.header').addClass("navbackgroud");
 		} else {
-		$('.fh5co-nav').removeClass("navbackgroud");
+		$('.header').removeClass("navbackgroud");
 		}
 		});
 </script>
