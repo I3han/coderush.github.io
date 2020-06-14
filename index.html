@@ -116,7 +116,7 @@
                                 <h1>CODERUSH 2020</h1>
                                 <h2>The most awaited moment of the year</h2>
                                 <div class="simply-countdown simply-countdown-one"></div>
-                                <p><a href="#" class="btn btn-default btn-sm">REGISTER NOW</a></p>
+                                <p><a href="#" class="btn btn-default btn-sm notReady">REGISTER NOW</a></p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                         <span>The best part</span>
-                        <h2>Timeline of CODE:RUSH 2020</h2>
+                        <h2>Timeline of CODERUSH 2020</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -228,7 +228,7 @@
                                     <div class="timeline-heading">
                                         <h3 class="timeline-title">Opening the Registration</h3>
                                         <span class="date">June 15th, 2020 - <span style="color:rgb(0, 235, 252)">closes</span> on 21st</span>
-                                        <button class="btn btn-default">Register</button>
+                                        <button class="btn btn-default notReady">Register</button>
                                     </div>
                                     <div class="timeline-body">
 
@@ -282,7 +282,6 @@
                                         <h3 class="timeline-title">CodeRush 2020 Day 2</h3>
                                         <span class="date">june 28th, 2020</span>
                                         <button class="btn btn-default">Enter the Contest</button>
-                                        <button class="btn btn-default">Enter Ideathon</button>
                                     </div>
                                     <div class="timeline-body">
 
@@ -442,7 +441,7 @@
                                     <a href="#fh5co-prizes">
                                         <div class="case-studies-summary">
                                             <h2 style="color: rgb(37, 37, 37);">1st Place</h2>
-                                            <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 10000000</span>
+                                            <!-- <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 10000000</span> -->
 
                                         </div>
                                     </a>
@@ -451,7 +450,7 @@
                                     <a href="#fh5co-prizes" class="color-2">
                                         <div class="case-studies-summary">
                                             <h2 style="color: rgb(37, 37, 37);">2nd Place</h2>
-                                            <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 100000</span>
+                                            <!-- <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 100000</span> -->
 
                                         </div>
                                     </a>
@@ -462,7 +461,7 @@
                                     <a href="#fh5co-prizes" class="color-3">
                                         <div class="case-studies-summary">
                                             <h2 style="color: rgb(37, 37, 37);">3rd Place</h2>
-                                            <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 1000</span>
+                                            <!-- <span style="color: rgb(37, 37, 37);font-weight:bold">Rs: 1000</span> -->
 
                                         </div>
                                     </a>
@@ -485,7 +484,7 @@
                     </div>
                 </div>
                 <div class="row animate-box" style="text-align: center;">
-                    <button type="submit" class="btn btn-default">Register</button>
+                    <button type="submit" class="btn btn-default notReady">Register</button>
                 </div>
             </div>
         </div>
@@ -495,7 +494,7 @@
 <div class="row" style="border-right: solid rgba(163, 163, 163, 0.664) 1px;border-left: solid rgba(163, 163, 163, 0.664) 1px;">
     <br><br><br><br>
     <div class="wrap">
-        <button class="button">Organizing Committee </button>
+        <button class="button" onclick="window.location.href='committee.html'">Organizing Committee </button>
       </div>
 
 <br><br><br><br><br>
@@ -504,9 +503,9 @@
                     <div class="col-md-12 text-center">
                        
                         <p>
-                            <a href="committee.html" class="color-2">
+                            <!-- <a href="committee.html" class="color-2">
                             Organizing Committee 
-                            </a>
+                            </a> -->
                             <small class="block"> Copyright &copy; 2020 | Crafted by <a href="http://intecs.itfac.mrt.ac.lk/" style="color: rgb(89, 14, 187);" target="_blank">INTECS</a></small>
 
                         </p>
@@ -611,6 +610,19 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+
+    <!-- not yet started msg -->
+<script>
+        $(".notReady").click(function(){
+            alert("Registration Not Yet Started, Check the Timeline");
+        })
+    
+</script>
+   
+
+
+    <!-- end -->
 </body>
 
 </html>
